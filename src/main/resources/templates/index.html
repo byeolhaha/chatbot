@@ -1,0 +1,31 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <title>민원 챗봇</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+  <link  rel="stylesheet" type= "text/css" href="/css/style.css">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script defer type="text/javascript" src="/js/a.js" ></script>
+</head>
+<body>
+<h1>민원 챗봇</h1>
+<div id="container" class="container">
+  <img src="chatbot_bummy.png" height="400vh" alt="Chatbot clipart">
+  <div id="chat" class="chat">
+    <div id="messages" class="messages">
+      <div id="bot_1" class="bot response">
+        <span > 안녕하세요.민원 상담 챗봇입니다.서식민원 접수방법, 처리방법, 민원처리법에 대해 궁금한 사항이 있으면 물어보세요.🤖</span>
+      </div>
+      <div id="bot_2" class="bot response">
+        <span >저는 매일 공부하고 있습니다. 질문에 대해 이상한 답변을 받으셨다면 검색창에 “바보: 이상한 답변을 받은 질문“을
+         넣어주시기 바랍니다. 저에게 소중한 데이터가 되어 다시 학습하겠습니다.</span>
+      </div>
+    </div>
+    <input id="question" name="question"  type="text" size="70" placeholder="개인정보를 활용한 상담은 지원하지 않습니다. 파일 업로드가 불가능합니다. " autocomplete="off" autofocus="true" />
+  </div>
+</div>
+</body>
+</html>
