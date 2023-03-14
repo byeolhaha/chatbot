@@ -41,7 +41,6 @@
   - 이를 분리하기 위해 "FileLink_Maker.class"를 통해서 태그와 내용을 분리했고 분리한 내용을 HTML로 만들기 위해서 
    JavaScript의 ```linkDiv.innerHTML = `<span>${link_html}<span>`;``` 이용
    
-  - <b>하지만 Thymeleaf의 Unscape 기능을 이용해서 태그가 HTML 엔티티도 인식되지 않도록 하는 문법을 발견하여 수정할 예정입니다.</b>
   
 - 규칙 기반 검색 기능은 python파일이 담당합니다. 따라서 Java에서 외부 파일인 python을 호출하기 위해 ProcessBuilder를 이용했습니다.
   - Jar 파일 내부에 python파일을 두지 않도록 주의합니다. Jar파일은 압축 파일이기 때문에 서버 입장에서는 내부 경로를 알 수 없기 때문입니다. 
